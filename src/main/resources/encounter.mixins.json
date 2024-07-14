@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "committee.nova.encounter.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinEntityType",
+    "MixinMob"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

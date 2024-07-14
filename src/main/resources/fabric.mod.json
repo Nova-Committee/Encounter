@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "encounter",
+  "version": "${version}",
+  "name": "encounter",
+  "description": "Allows to add targeting/avoiding rules for entity AI",
+  "authors": [
+    "Rinko1231",
+    "Tapio"
+  ],
+  "contact": {
+    "sources": "https://github.com/Nova-Committee/Encounter",
+    "issues": "https://github.com/Nova-Committee/Encounter/issues"
+  },
+  "license": "Nova Relay License 1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "committee.nova.encounter.Encounter"
+    ]
+  },
+  "mixins": [
+    "encounter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
